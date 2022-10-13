@@ -17,5 +17,41 @@ jQuery("#toggle").click(function(){
     
 });
 
-
+jQuery("#fadein").click(function(){
+    jQuery(".box").fadeIn(1000);
+    
 });
+
+jQuery("#fadeout").click(function(){
+    jQuery(".box").fadeOut(1000);
+    
+});
+
+jQuery("#fadetoggle").click(function(){
+    jQuery(".box").fadeToggle(1000);
+    
+});
+
+jQuery("#slideup").click(function(){
+    jQuery(".box").slideUp(1000);
+    
+});
+jQuery("#slidedown").click(function(){
+    jQuery(".box").slideDown(1000);
+    
+});
+jQuery("#slidetoggle").click(function(){
+    jQuery(".box").slideToggle(1000);
+    
+    
+});
+
+    
+});
+
+
+
+
+
+
+
