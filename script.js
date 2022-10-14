@@ -41,11 +41,19 @@ jQuery("#slidedown").click(function(){
     
 });
 jQuery("#slidetoggle").click(function(){
-    jQuery(".box").slideToggle(1000);
-    
-    
+    jQuery(".box").slideToggle(1000);  
 });
 
+jQuery("#animate").click(function(){
+    jQuery(".box").animate({left:"250", left: '250px',
+    opacity: '0.5',
+    height: '150px',
+    width: '150px'},1000);  
+});
+jQuery(".getset").click(function(){
+    var p1 = jQuery(".p1").text();
+    jQuery(".p2").text(p1);
+});
     
 });
 
